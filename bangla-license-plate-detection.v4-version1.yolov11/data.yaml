@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Rickshaw', 'cng', 'numberplate']
+
+roboflow:
+  workspace: bangla-license-plate-detection-by-yolov8
+  project: bangla-license-plate-detection-dkqe3
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bangla-license-plate-detection-by-yolov8/bangla-license-plate-detection-dkqe3/dataset/4
